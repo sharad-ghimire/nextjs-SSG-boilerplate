@@ -4,15 +4,16 @@ import path from "path";
 import matter from "gray-matter";
 import Head from "next/head";
 import marked from "marked";
+import Layout from "../../components/Layout";
 
 const Blog = ({ data, contents }) => {
   return (
-    <Fragment>
+    <Layout>
       <Head>
         <title>{data.title}</title>
       </Head>
       <div dangerouslySetInnerHTML={{ __html: contents }} />
-    </Fragment>
+    </Layout>
   );
 };
 

@@ -1,12 +1,11 @@
-import Link from "next/link";
+import Layout from "../components/Layout";
 const Home = () => (
-  <div className="container">
-    <div>
-      <Link href="/blogs">
-        <a>Blogs</a>
-      </Link>
+  <Layout>
+    <div className="text-center my-10">
+      <div className="text-orange-800 text-xl">Hello, I am</div>
+      <div className="text-gray-200 text-5xl">Sharad Ghimire</div>
     </div>
-  </div>
+  </Layout>
 );
 
 export default Home;

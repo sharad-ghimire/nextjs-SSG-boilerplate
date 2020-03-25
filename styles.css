@@ -3,3 +3,14 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+/* GLobal Styles */
+
+body {
+  background-color: rgb(37, 39, 52);
+  @apply text-gray-100;
+}
+
+.navbar-bg {
+  background-color: #333646;
+}

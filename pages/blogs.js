@@ -1,10 +1,11 @@
 import React from "react";
 import fs from "fs";
 import Link from "next/link";
+import Layout from "../components/Layout";
 
 const Blogs = ({ slugs }) => {
   return (
-    <div>
+    <Layout>
       {slugs.map(slug => {
         return (
           <div key={slug}>
@@ -14,7 +15,7 @@ const Blogs = ({ slugs }) => {
           </div>
         );
       })}
-    </div>
+    </Layout>
   );
 };
 
