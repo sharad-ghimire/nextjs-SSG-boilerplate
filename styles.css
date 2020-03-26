@@ -4,13 +4,25 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
-/* GLobal Styles */
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
-body {
-  background-color: rgb(37, 39, 52);
-  @apply text-gray-100;
+/* GLobal Styles */
+.dark-theme {
+  --bg-background-primary: rgb(37, 39, 52);
+  --bg-background-secondary: #333646;
+  --content-primary: #f7fafc;
+  --content-secondary: #e2e8f0;
+  --color-primary: #feebc8;
 }
 
-.navbar-bg {
-  background-color: #333646;
+.light-theme {
+  --bg-background-primary: white;
+  --bg-background-secondary: #e2e8f0;
+  --content-primary: #1a202c;
+  --content-secondary: #4a5568;
+  --color-primary: #e53e3e;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
 }

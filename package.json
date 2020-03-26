@@ -14,7 +14,10 @@
     "marked": "^0.8.2",
     "next": "9.3.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-icons": "^3.9.0",
+    "react-markdown": "^4.3.1",
+    "react-syntax-highlighter": "^12.2.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
